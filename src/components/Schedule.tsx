@@ -17,18 +17,36 @@ const Schedule = () => {
     },
     {
       week: 'Week 3',
+      title: 'Data Exploration and Cleaning',
+      status: 'upcoming',
+      description: 'Analyzing pump data patterns and preparing datasets'
+    },
+    {
+      week: 'Week 4',
       title: 'Model Development',
       status: 'upcoming',
       description: 'Building anomaly detection and forecasting algorithms'
     },
     {
-      week: 'Week 4',
-      title: 'Testing & Integration',
+      week: 'Week 5',
+      title: 'Model Development',
+      status: 'upcoming',
+      description: 'Building anomaly detection and forecasting algorithms'
+    },
+    {
+      week: 'Week 6',
+      title: 'Testing and Integration',
       status: 'upcoming',
       description: 'System integration and comprehensive testing phase'
     },
     {
-      week: 'Week 5',
+      week: 'Week 7',
+      title: 'Testing and Integration',
+      status: 'upcoming',
+      description: 'System integration and comprehensive testing phase'
+    },
+    {
+      week: 'Week 8',
       title: 'Final Presentation Preparation',
       status: 'upcoming',
       description: 'Documentation completion and presentation rehearsals'

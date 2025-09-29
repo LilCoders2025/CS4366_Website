@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Team from './components/Team';
 import Schedule from './components/Schedule';
 import Calendar from './components/Calendar';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Team />
       <Schedule />
       <Calendar />
-      <Contact />
       <Footer />
     </div>
   );

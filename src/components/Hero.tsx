@@ -1,11 +1,13 @@
 import React from 'react';
 import { TrendingUp, Shield, Zap } from 'lucide-react';
+import lilcoders from '../assets/LilCoders.jpg';
 
 const Hero = () => {
   return (
     <section id="home" className="pt-16 bg-gradient-to-br from-sky-50 via-white to-teal-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center max-w-4xl mx-auto">
+          <img src={lilcoders} alt='lilcoders_logo' className='h-32 w-32 mx-auto object-contain mb-6'></img>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Anomaly Detection: 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-teal-600"> 

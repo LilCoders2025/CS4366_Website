@@ -4,47 +4,68 @@ import { Calendar as CalendarIcon, Users, Presentation, FileText } from 'lucide-
 const Calendar = () => {
   const events = [
     {
-      date: 'Sept 30',
-      title: 'Stakeholder Interview with SitePro Director',
-      type: 'interview',
-      time: '2:00 PM - 3:30 PM',
+      date: 'Sept 18',
+      title: '1st SitePro Meeting (Online)',
+      type: 'meeting',
+      time: '1:00 PM - 2:00 PM',
       icon: <FileText className="h-4 w-4" />
     },
     {
-      date: 'Oct 5',
-      title: 'Weekly Team Meeting',
+      date: 'Sept 23',
+      title: '2nd SitePro Meeting (On-Site)',
       type: 'meeting',
-      time: '10:00 AM - 11:00 AM',
+      time: '12:00 PM - 2:00 PM',
       icon: <Users className="h-4 w-4" />
     },
     {
-      date: 'Oct 10',
-      title: 'Model Review Session',
+      date: 'Sept 26',
+      title: 'Stakeholder Interviews (Yash)',
+      type: 'interview',
+      time: '9:00 AM - 9:30 AM',
+      icon: <Presentation className="h-4 w-4" />
+    },
+    {
+      date: 'Sept 26',
+      title: 'Stakeholder Interviews (Tami)',
+      type: 'interview',
+      time: '2:00 PM - 3:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Sept 27',
+      title: 'Team Meeting',
+      type: 'meeting',
+      time: '4:00 PM - 6:00 PM',
+      icon: <Presentation className="h-4 w-4" />
+    },
+    {
+      date: 'Sept 28',
+      title: 'Team meeting',
       type: 'review',
-      time: '3:00 PM - 4:30 PM',
-      icon: <Presentation className="h-4 w-4" />
-    },
-    {
-      date: 'Oct 12',
-      title: 'Data Analysis Workshop',
-      type: 'workshop',
-      time: '1:00 PM - 3:00 PM',
+      time: '4:00 PM - 6:00 PM',
       icon: <Users className="h-4 w-4" />
     },
     {
-      date: 'Oct 15',
-      title: 'Progress Presentation',
-      type: 'presentation',
-      time: '11:00 AM - 12:00 PM',
-      icon: <Presentation className="h-4 w-4" />
+      date: 'Sept 29',
+      title: 'Stakeholder Interviews (Shravani)',
+      type: 'interview',
+      time: '4:00 PM - 6:00 PM',
+      icon: <Users className="h-4 w-4" />
     },
     {
-      date: 'Oct 20',
-      title: 'Final Demo Preparation',
+      date: 'Sept 29',
+      title: 'Stakeholder Interviews (Rahul and Blessed)',
+      type: 'interview',
+      time: '4:00 PM - 6:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Sept 30',
+      title: 'Team meeting with SitePro',
       type: 'meeting',
-      time: '9:00 AM - 12:00 PM',
+      time: '4:00 PM - 4:30 PM',
       icon: <Users className="h-4 w-4" />
-    }
+    },
   ];
 
   const getEventColor = (type: string) => {

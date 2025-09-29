@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Waves } from 'lucide-react';
+import lilcoders from '../assets/LilCoders.jpg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +10,6 @@ const Header = () => {
     { name: 'Team', href: '#team' },
     { name: 'Schedule', href: '#schedule' },
     { name: 'Calendar', href: '#calendar' },
-    { name: 'Contact', href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -25,7 +25,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Waves className="h-8 w-8 text-sky-500" />
+            <img src={lilcoders} alt='lilcoders_logo' className="h-8 w-8 text-sky-500" />
             <span className="text-xl font-bold text-gray-900">CS4366: Lil' Coders</span>
           </div>
 
