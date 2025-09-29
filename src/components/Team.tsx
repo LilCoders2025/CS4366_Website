@@ -32,7 +32,7 @@ const Team = () => {
       icon: <User className="h-6 w-6" />,
       color: 'from-emerald-500 to-green-600',
       photo: tamiImg,
-      description: 'Designs ML models to detect pump failures and predict anomalies in real-time.'
+      description: 'A computer science senior graduating in December 2025, with interests in data science.Advancing leadership post NSBE executive member, excited for next coming months.'
     },
     {
       name: 'Shravani Kardekar',
