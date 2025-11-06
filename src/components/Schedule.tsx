@@ -12,30 +12,30 @@ const Schedule = () => {
     {
       week: 'Week 2',
       title: 'Data Exploration & Cleaning',
-      status: 'in-progress',
+      status: 'completed',
       description: 'Analyzing pump data patterns and preparing datasets'
     },
     {
       week: 'Week 3',
       title: 'Data Exploration and Cleaning',
-      status: 'upcoming',
+      status: 'completed',
       description: 'Analyzing pump data patterns and preparing datasets'
     },
     {
       week: 'Week 4',
-      title: 'Model Development',
-      status: 'upcoming',
+      title: 'Data Exploration and Cleaning',
+      status: 'completed',
       description: 'Building anomaly detection and forecasting algorithms'
     },
     {
       week: 'Week 5',
       title: 'Model Development',
-      status: 'upcoming',
+      status: 'in-progress',
       description: 'Building anomaly detection and forecasting algorithms'
     },
     {
       week: 'Week 6',
-      title: 'Testing and Integration',
+      title: 'Model Development',
       status: 'upcoming',
       description: 'System integration and comprehensive testing phase'
     },
@@ -47,10 +47,29 @@ const Schedule = () => {
     },
     {
       week: 'Week 8',
+      title: 'Testing and Integration',
+      status: 'upcoming',
+      description: 'Documentation completion and presentation rehearsals'
+    },
+    {
+      week: 'Week 9',
+      title: 'Testing and Integration',
+      status: 'upcoming',
+      description: 'Documentation completion and presentation rehearsals'
+    },
+    {
+      week: 'Week 10',
+      title: 'Testing and Integration',
+      status: 'upcoming',
+      description: 'Documentation completion and presentation rehearsals'
+    },
+    {
+      week: 'Week 11',
       title: 'Final Presentation Preparation',
       status: 'upcoming',
       description: 'Documentation completion and presentation rehearsals'
-    }
+    },
+
   ];
 
   const getStatusIcon = (status: string) => {

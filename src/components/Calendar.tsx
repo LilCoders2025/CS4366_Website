@@ -66,6 +66,104 @@ const Calendar = () => {
       time: '4:00 PM - 4:30 PM',
       icon: <Users className="h-4 w-4" />
     },
+    {
+      date: 'Oct 5',
+      title: 'Team meeting',
+      type: 'meeting',
+      time: '2:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 7',
+      title: 'Team meeting with SitePro',
+      type: 'meeting',
+      time: '4:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 12',
+      title: 'Team meeting',
+      type: 'meeting',
+      time: '2:00 PM - 4:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 14',
+      title: 'Team meeting with SitePro',
+      type: 'meeting',
+      time: '4:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 14',
+      title: 'Team meeting',
+      type: 'meeting',
+      time: '7:00 PM - 8:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 19',
+      title: 'Team meeting',
+      type: 'meeting',
+      time: '2:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 22',
+      title: 'Team meeting (Online)',
+      type: 'meeting',
+      time: '8:00 PM - 9:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Oct 26',
+      title: 'Team Meeting',
+      type: 'meeting',
+      time: '2:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 4',
+      title: 'Team meeting with SitePro',
+      type: 'meeting',
+      time: '4:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 4',
+      title: 'Team meeting',
+      type: 'meeting',
+      time: '7:00 PM - 8:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 9',
+      title: 'Sunday Group Meeting',
+      type: 'meeting',
+      time: '2:00 PM - 3:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 11',
+      title: 'Weekly SitePro Inc. Meeting',
+      type: 'meeting',
+      time: '4:00 PM - 5:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 11',
+      title: 'Weekly Group Meeting',
+      type: 'meeting',
+      time: '7:00 PM - 8:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 16',
+      title: 'Sunday Group Meeting',
+      type: 'meeting',
+      time: '2:00 PM - 3:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
   ];
 
   const getEventColor = (type: string) => {
