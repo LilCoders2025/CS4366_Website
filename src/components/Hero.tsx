@@ -35,6 +35,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center mb-10">
+            <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+              <p>demo video link goes here</p>
+            </div>
+          </div>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">

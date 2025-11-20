@@ -30,43 +30,43 @@ const Schedule = () => {
     {
       week: 'Week 5',
       title: 'Model Development',
-      status: 'in-progress',
+      status: 'completed',
       description: 'Building anomaly detection and forecasting algorithms'
     },
     {
       week: 'Week 6',
       title: 'Model Development',
-      status: 'upcoming',
+      status: 'completed',
       description: 'System integration and comprehensive testing phase'
     },
     {
       week: 'Week 7',
       title: 'Testing and Integration',
-      status: 'upcoming',
+      status: 'completed',
       description: 'System integration and comprehensive testing phase'
     },
     {
       week: 'Week 8',
       title: 'Testing and Integration',
-      status: 'upcoming',
+      status: 'completed',
       description: 'Documentation completion and presentation rehearsals'
     },
     {
       week: 'Week 9',
       title: 'Testing and Integration',
-      status: 'upcoming',
+      status: 'completed',
       description: 'Documentation completion and presentation rehearsals'
     },
     {
       week: 'Week 10',
       title: 'Testing and Integration',
-      status: 'upcoming',
+      status: 'completed',
       description: 'Documentation completion and presentation rehearsals'
     },
     {
       week: 'Week 11',
       title: 'Final Presentation Preparation',
-      status: 'upcoming',
+      status: 'in-progress',
       description: 'Documentation completion and presentation rehearsals'
     },
 

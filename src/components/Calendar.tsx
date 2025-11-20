@@ -164,6 +164,48 @@ const Calendar = () => {
       time: '2:00 PM - 3:00 PM',
       icon: <Users className="h-4 w-4" />
     },
+    {
+      date: 'Nov 17',
+      title: 'Team Meeting',
+      type: 'meeting',
+      time: '6:00 PM - 9:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 18',
+      title: 'Weekly Meeting with SitePro Inc.',
+      type: 'review',
+      time: '4:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 19',
+      title: 'Stage 3 Submission',
+      type: 'presentation',
+      time: '2:00 PM - 3:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 23',
+      title: 'Sunday Group Meeting',
+      type: 'meeting',
+      time: '2:00 PM - 3:00 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 25',
+      title: 'Final Meeting with SitePro Inc.',
+      type: 'review',
+      time: '4:00 PM - 4:30 PM',
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      date: 'Nov 25',
+      title: 'Stage 3 Presentation',
+      type: 'presentation',
+      time: '5:00 PM - 6:30 PM',
+      icon: <Users className="h-4 w-4" />
+    }
   ];
 
   const getEventColor = (type: string) => {
